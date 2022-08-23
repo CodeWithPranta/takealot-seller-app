@@ -23,7 +23,7 @@ class TakealotsalesController extends Controller
 
        $pagination = $response['page_summary'];
        $total = $pagination['total'];
-       $page_size = 30;
+       $page_size = 10;
        $numOfpages = round($total/$page_size);
        $current_page = $pagination['page_number'];
        $next_page = $current_page + 1;
