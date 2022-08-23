@@ -11,7 +11,7 @@ class TakealotsalesController extends Controller
     public function takealotsales(Request $request, $page_number = 1){
 
       $takealot_key = auth()->user()->takealot_key;
-      $url = 'https://seller-api.takealot.com/v2/sales?page_number='.$page_number.'&page_size=30';
+      $url = 'https://seller-api.takealot.com/v2/sales?page_number='.$page_number.'&page_size=10';
       //dd('Key '.$takealot_key);
 
       $takalotsales =  Http::withHeaders([

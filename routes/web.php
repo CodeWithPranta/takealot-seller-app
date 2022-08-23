@@ -22,6 +22,6 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-Route::get('takealotsales/{page_number?}', [TakealotsalesController::class, 'takealotsales'])->middleware(['auth']);
+Route::get('takealotsales/{page_number?}', [TakealotsalesController::class, 'takealotsales'])->middleware(['auth'])->name('takealotsales');
 
 require __DIR__.'/auth.php';

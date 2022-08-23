@@ -4,12 +4,11 @@
     <div class="bg-gray-50">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
-            <span class="block">Ready to dive in?</span>
-            <span class="block text-indigo-600">Control your Takealot seller panel!</span>
+            <span class="block mb-2">Ready to dive in?</span>
+            <span class="block text-indigo-600">Track your Takealot seller API panel!</span>
         </h2>
         </div>
-        <div class="bg-gray-50 mar">
-        <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0 m-3">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
             @if (Route::has('login'))
             <div class="fixed px-6 py-4 sm:block">
                 @auth
@@ -23,7 +22,6 @@
                 @endauth
             </div>
             @endif
-        </div>
         </div>
     </div>
     </div>
