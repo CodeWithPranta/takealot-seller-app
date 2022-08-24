@@ -22,21 +22,6 @@
                             <thead>
                                 <tr class="bg-gray-600 text-center">
                                     <th
-                                    class="
-                                    w-1/6
-                                    min-w-[160px]
-                                    text-lg
-                                    font-semibold
-                                    text-white
-                                    py-4
-                                    lg:py-7
-                                    px-3
-                                    lg:px-4
-                                    "
-                                    >
-                                    Order Date
-                                  </th>
-                                    <th
                                         class="
                                         w-1/6
                                         min-w-[160px]
@@ -49,7 +34,7 @@
                                         lg:px-4
                                         "
                                         >
-                                        Offer ID
+                                        TSIN ID
                                     </th>
                                     <th
                                         class="
@@ -65,7 +50,7 @@
                                         border-r border-transparent
                                         "
                                         >
-                                        Product Title
+                                        Offer ID
                                     </th>
                                     <th
                                     class="
@@ -80,7 +65,7 @@
                                     lg:px-4
                                     "
                                     >
-                                     T. Mobile URL
+                                     SKU
                                     </th>
                                     <th
                                     class="
@@ -95,7 +80,7 @@
                                     lg:px-4
                                     "
                                     >
-                                    SKU
+                                    Barcode
                                   </th>
                                   <th
                                     class="
@@ -110,52 +95,7 @@
                                     lg:px-4
                                     "
                                     >
-                                    TSIN
-                                  </th>
-                                  <th
-                                    class="
-                                    w-1/6
-                                    min-w-[160px]
-                                    text-lg
-                                    font-semibold
-                                    text-white
-                                    py-4
-                                    lg:py-7
-                                    px-3
-                                    lg:px-4
-                                    "
-                                    >
-                                    Order ID
-                                  </th>
-                                  <th
-                                    class="
-                                    w-1/6
-                                    min-w-[160px]
-                                    text-lg
-                                    font-semibold
-                                    text-white
-                                    py-4
-                                    lg:py-7
-                                    px-3
-                                    lg:px-4
-                                    "
-                                    >
-                                    Order Item ID
-                                  </th>
-                                  <th
-                                    class="
-                                    w-1/6
-                                    min-w-[160px]
-                                    text-lg
-                                    font-semibold
-                                    text-white
-                                    py-4
-                                    lg:py-7
-                                    px-3
-                                    lg:px-4
-                                    "
-                                    >
-                                    Quantity
+                                    Product Label Number
                                   </th>
                                   <th
                                     class="
@@ -185,7 +125,7 @@
                                     lg:px-4
                                     "
                                     >
-                                    DC
+                                    RRP
                                   </th>
                                   <th
                                     class="
@@ -200,7 +140,7 @@
                                     lg:px-4
                                     "
                                     >
-                                    Sale Status
+                                    Leadtime Days
                                   </th>
                                   <th
                                     class="
@@ -215,7 +155,7 @@
                                     lg:px-4
                                     "
                                     >
-                                    Takealot URL
+                                    Leadtime Stock (quantity)
                                   </th>
                                   <th
                                     class="
@@ -230,26 +170,133 @@
                                     lg:px-4
                                     "
                                     >
-                                    Customer
+                                    Status
                                   </th>
+                                  <th
+                                    class="
+                                    w-1/6
+                                    min-w-[160px]
+                                    text-lg
+                                    font-semibold
+                                    text-white
+                                    py-4
+                                    lg:py-7
+                                    px-3
+                                    lg:px-4
+                                    "
+                                    >
+                                    Title
+                                  </th>
+                                  <th
+                                    class="
+                                    w-1/6
+                                    min-w-[160px]
+                                    text-lg
+                                    font-semibold
+                                    text-white
+                                    py-4
+                                    lg:py-7
+                                    px-3
+                                    lg:px-4
+                                    "
+                                    >
+                                    Offer URL
+                                  </th>
+                                  <th
+                                    class="
+                                    w-1/6
+                                    min-w-[160px]
+                                    text-lg
+                                    font-semibold
+                                    text-white
+                                    py-4
+                                    lg:py-7
+                                    px-3
+                                    lg:px-4
+                                    "
+                                    >
+                                    Stock at TakeaLot
+                                  </th>
+                                    <th
+                                    class="
+                                    w-1/6
+                                    min-w-[160px]
+                                    text-lg
+                                    font-semibold
+                                    text-white
+                                    py-4
+                                    lg:py-7
+                                    px-3
+                                    lg:px-4
+                                    "
+                                    >
+                                    Total Stock on Way
+                                    </th>
+                                    <th
+                                    class="
+                                    w-1/6
+                                    min-w-[160px]
+                                    text-lg
+                                    font-semibold
+                                    text-white
+                                    py-4
+                                    lg:py-7
+                                    px-3
+                                    lg:px-4
+                                    "
+                                    >
+                                    Total Stock Cover
+                                    </th>
+                                    <th
+                                    class="
+                                    w-1/6
+                                    min-w-[160px]
+                                    text-lg
+                                    font-semibold
+                                    text-white
+                                    py-4
+                                    lg:py-7
+                                    px-3
+                                    lg:px-4
+                                    "
+                                    >
+                                    Total Stock at Takealot
+                                    </th>
+                                    <th
+                                    class="
+                                    w-1/6
+                                    min-w-[160px]
+                                    text-lg
+                                    font-semibold
+                                    text-white
+                                    py-4
+                                    lg:py-7
+                                    px-3
+                                    lg:px-4
+                                    "
+                                    >
+                                    Created Date
+                                    </th>
+                                    <th
+                                    class="
+                                    w-1/6
+                                    min-w-[160px]
+                                    text-lg
+                                    font-semibold
+                                    text-white
+                                    py-4
+                                    lg:py-7
+                                    px-3
+                                    lg:px-4
+                                    "
+                                    >
+                                    Discount
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach($response['sales'] as $sale)
+                                @foreach($response['offers'] as $offer)
                                 <tr>
-                                    <td
-                                        class="
-                                        text-center text-dark
-                                        font-medium
-                                        text-base
-                                        py-5
-                                        px-2
-                                        bg-white
-                                        border-b border-r border-[#E8E8E8]
-                                        "
-                                        >
-                                        {{$sale['order_date']}}
-                                    </td>
                                     <td
                                         class="
                                         text-center text-dark
@@ -261,7 +308,7 @@
                                         border-b border-l border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['offer_id']}}
+                                        {{$offer['tsin_id']}}
                                     </td>
                                     <td
                                         class="
@@ -274,7 +321,7 @@
                                         border-b border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['product_title']}}
+                                        {{$offer['offer_id']}}
                                     </td>
                                     <td
                                         class="
@@ -287,7 +334,7 @@
                                         border-b border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['takealot_url_mobi']}}
+                                        {{$offer['sku']}}
                                     </td>
                                     <td
                                         class="
@@ -300,7 +347,7 @@
                                         border-b border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['sku']}}
+                                        {{$offer['barcode']}}
                                     </td>
                                     <td
                                         class="
@@ -313,7 +360,7 @@
                                         border-b border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['tsin']}}
+                                        {{$offer['product_label_number']}}
                                     </td>
                                     <td
                                         class="
@@ -326,7 +373,7 @@
                                         border-b border-r border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['order_id']}}
+                                        {{$offer['selling_price']}}
                                     </td>
                                     <td
                                         class="
@@ -339,7 +386,7 @@
                                         border-b border-r border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['order_item_id']}}
+                                        {{$offer['rrp']}}
                                     </td>
                                     <td
                                         class="
@@ -352,7 +399,7 @@
                                         border-b border-r border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['quantity']}}
+                                        {{$offer['leadtime_days']}}
                                     </td>
                                     <td
                                         class="
@@ -365,7 +412,7 @@
                                         border-b border-r border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['selling_price']}}
+                                       {{$offer['leadtime_stock'][0]['quantity_available']}}
                                     </td>
                                     <td
                                         class="
@@ -378,21 +425,7 @@
                                         border-b border-r border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['dc']}}
-                                    </td>
-
-                                    <td
-                                        class="
-                                        text-center text-dark
-                                        font-medium
-                                        text-base
-                                        py-5
-                                        px-2
-                                        bg-white
-                                        border-b border-r border-[#E8E8E8]
-                                        "
-                                        >
-                                        {{$sale['sale_status']}}
+                                        {{$offer['status']}}
                                     </td>
                                     <td
                                         class="
@@ -405,7 +438,7 @@
                                         border-b border-r border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['takealot_url']}}
+                                        {{$offer['title']}}
                                     </td>
                                     <td
                                         class="
@@ -418,7 +451,87 @@
                                         border-b border-r border-[#E8E8E8]
                                         "
                                         >
-                                        {{$sale['customer']}}
+                                        {{$offer['offer_url']}}
+                                    </td>
+                                    <td
+                                        class="
+                                        text-center text-dark
+                                        font-medium
+                                        text-base
+                                        py-5
+                                        px-2
+                                        bg-white
+                                        border-b border-r border-[#E8E8E8]
+                                        "
+                                        >
+                                        CPT: {{$offer['stock_at_takealot'][0]['quantity_available']}} <br>
+                                        JHB: {{$offer['stock_at_takealot'][1]['quantity_available']}} <br>
+                                        Total: {{$offer['stock_at_takealot'][0]['quantity_available'] + $offer['stock_at_takealot'][1]['quantity_available']}}
+                                    </td>
+                                    <td
+                                        class="
+                                        text-center text-dark
+                                        font-medium
+                                        text-base
+                                        py-5
+                                        px-2
+                                        bg-white
+                                        border-b border-r border-[#E8E8E8]
+                                        "
+                                        >
+                                        {{$offer['total_stock_on_way']}}
+                                    </td>
+                                    <td
+                                        class="
+                                        text-center text-dark
+                                        font-medium
+                                        text-base
+                                        py-5
+                                        px-2
+                                        bg-white
+                                        border-b border-r border-[#E8E8E8]
+                                        "
+                                        >
+                                        {{$offer['total_stock_cover']}}
+                                    </td>
+                                    <td
+                                        class="
+                                        text-center text-dark
+                                        font-medium
+                                        text-base
+                                        py-5
+                                        px-2
+                                        bg-white
+                                        border-b border-r border-[#E8E8E8]
+                                        "
+                                        >
+                                        {{$offer['stock_at_takealot_total']}}
+                                    </td>
+                                    <td
+                                        class="
+                                        text-center text-dark
+                                        font-medium
+                                        text-base
+                                        py-5
+                                        px-2
+                                        bg-white
+                                        border-b border-r border-[#E8E8E8]
+                                        "
+                                        >
+                                        {{$offer['date_created']}}
+                                    </td>
+                                    <td
+                                        class="
+                                        text-center text-dark
+                                        font-medium
+                                        text-base
+                                        py-5
+                                        px-2
+                                        bg-white
+                                        border-b border-r border-[#E8E8E8]
+                                        "
+                                        >
+                                        {{$offer['discount']}}
                                     </td>
                                 </tr>
                                 @endforeach
@@ -439,8 +552,8 @@
             @endphp
 
             @if ($current_page >= 1 && $numOfpages > $current_page)
-            <a href="{{url('takealotsales/'.$prev)}}" class="text-xl p-4 mr-10 bg-gray-600 text-white">&laquo; Prev. Page</a>
-            <a href="{{url('takealotsales/'.$next_page)}}" class="text-xl p-4 ml-10 bg-gray-600 text-white">Next Page &raquo;</a>
+            <a href="{{url('takealotoffers/'.$prev)}}" class="text-xl p-4 mr-10 bg-gray-600 text-white">&laquo; Prev. Page</a>
+            <a href="{{url('takealotoffers/'.$next_page)}}" class="text-xl p-4 ml-10 bg-gray-600 text-white">Next Page &raquo;</a>
             @endif
             @endif
         </div>

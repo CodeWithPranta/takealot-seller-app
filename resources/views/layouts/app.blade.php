@@ -13,8 +13,38 @@
         <!-- Tailwindcss grid cdn -->
         <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+        <style>
+            body {
+              font-family: 'IBM Plex Mono', sans-serif;
+            }
+            [x-cloak] {
+              display: none;
+            }
+
+            .line {
+              background: repeating-linear-gradient(
+                to bottom,
+                #eee,
+                #eee 1px,
+                #fff 1px,
+                #fff 8%
+              );
+            }
+            .tick {
+              background: repeating-linear-gradient(
+                to right,
+                #eee,
+                #eee 1px,
+                #fff 1px,
+                #fff 5%
+              );
+            }
+          </style>
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">

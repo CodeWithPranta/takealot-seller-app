@@ -18,6 +18,18 @@
                     <x-nav-link :href="route('takealotsales')" :active="request()->routeIs('takealotsales')">
                         {{ __('Sales') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('takealotoffers')" :active="request()->routeIs('takealotoffers')">
+                        {{ __('Offers') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('buyable')" :active="request()->routeIs('buyable')">
+                        {{ __('Buyable') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('not_buyable')" :active="request()->routeIs('not_buyable')">
+                        {{ __('Not Buyable') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('disabled_by_seller')" :active="request()->routeIs('disabled_by_seller')">
+                        {{ __('Disabled By Seller') }}
+                    </x-nav-link>
                 </div>
             </div>
 
